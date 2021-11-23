@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationMessageBAckToHomepage">
+
+    <TextView
+        android:id="@+id/request_sent"
+        android:layout_width="302dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="132dp"
+        android:text="@string/booking_request_sent"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#7B1FA2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_book_another"
+        android:layout_width="216dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="69dp"
+        android:text="@string/button_book_again"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/request_sent" />
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="216dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="63dp"
+        android:text="@string/button_Profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_book_another" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

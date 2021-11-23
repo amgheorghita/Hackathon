@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UrbanGardeningApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_register">Register</string>
+    <string name="button_choose">Choose</string>
+    <string name="button_verify">Verify</string>
+    <string name="button_continue">Continue</string>
+    <string name="button_book">Book</string>
+    <string name="button_Profile">Profile</string>
+    <string name="button_book_again">Book another plot</string>
+    <string name="forgot_Password">Forgot password?</string>
+    <string name="offering_land_again">Offer another plot?</string>
+    <string name="offering_land">Offering a garden</string>
+    <string name="looking_for_land">Looking for a garden?</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_offer_land">Offer_land</string>
+    <string name="property_details">Property Details</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_area">Square metre area</string>
+    <string name="hint_gardeners">Capacity (number of gardeners)</string>
+    <string name="hint_additional">Additional information</string>
+    <string name="garden_photo">Information about the garden</string>
+    <string name="booking_request_sent">Your request has been sent! The owner has 48 Hours to reply.</string>
+
+</resources>
